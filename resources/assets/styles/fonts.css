@@ -1,0 +1,26 @@
+/* purgecss start ignore */
+@font-face {
+  font-family: 'URW DIN';
+  src: url('URWDIN-Medium.eot');
+  src: local('URW DIN Medium'), local('URWDIN-Medium'),
+      url('URWDIN-Medium.eot?#iefix') format('embedded-opentype'),
+      url('URWDIN-Medium.woff2') format('woff2'),
+      url('URWDIN-Medium.woff') format('woff'),
+      url('URWDIN-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'URW DIN';
+  src: url('URWDIN-BlackItalic.eot');
+  src: local('URW DIN Black Italic'), local('URWDIN-BlackItalic'),
+      url('URWDIN-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('URWDIN-BlackItalic.woff2') format('woff2'),
+      url('URWDIN-BlackItalic.woff') format('woff'),
+      url('URWDIN-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* purgecss end ignore */

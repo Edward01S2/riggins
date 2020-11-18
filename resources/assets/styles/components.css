@@ -1,0 +1,76 @@
+/**
+ * Components
+ */
+
+ [x-cloak] {
+   @apply hidden;
+ }
+
+ .container-full {
+	left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+}
+
+.nav-link.active {
+  
+}
+
+/* #hero {
+  border-bottom-right-radius: 50% 10%;
+  border-bottom-left-radius: 50% 10%;
+} */
+
+.recent-logo {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.oval-header {
+  width: 200%; /* Mask width 2x the size of the header */
+  height: 200%; /* Mask height 2x the size of the header */
+  transform: translate(-25%, -51%); /* This compensates the size of the image and places the curvy part that you want on the certer of the mask, it's a translate that negativates half it's width and half it's height */
+  border: 8px solid #df2c2c;
+  border-radius:  0 0 50% 50%;
+  overflow: hidden;
+  border-top: 0;
+  background-size: cover;
+  @screen md {
+    width: 160%;
+    transform: translate(-18%, -51%);
+    border-radius: 100%;
+  }
+  @screen lg {
+    width: 120%;
+    transform: translate(-8%, -51%);
+    border: 12px solid #df2c2c;
+  }
+  @screen xl {
+    width: 110%;
+    transform: translate(-4.5%, -51%);
+    border: 12px solid #df2c2c;
+  }
+}
+
+.black-gradient {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 1%, rgba(255,255,255,0) 5%);
+}
+
+.chevron-container {
+  margin-top: -1.1rem;
+  @screen md {
+    margin-top: .7rem;
+  }
+  @screen lg {
+    margin-top: 4rem;
+  }
+  @screen xl {
+    margin-top: 6rem;
+  }
+}

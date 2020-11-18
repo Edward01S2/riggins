@@ -1,0 +1,11 @@
+/**
+ * Global
+ */
+
+ html {
+   @apply font-urwdin font-medium bg-white;
+ }
+
+ a {
+   @apply transition duration-150;
+ }
