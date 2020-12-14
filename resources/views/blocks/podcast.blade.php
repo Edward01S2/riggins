@@ -5,7 +5,7 @@
       <img class="absolute recent-logo md:w-3/4 lg:max-w-xl" src="{!! $logo['url'] !!}" alt="">
     </div>
     <div>
-      {!! $script !!}
+      {!! do_shortcode('[youtube-feed]') !!}
     </div>
   </div>
 
